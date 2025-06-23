@@ -19,3 +19,5 @@ langchainhub
 groq
 langchain-groq
 sentence-transformers
+ragstack-ai
+datasets
