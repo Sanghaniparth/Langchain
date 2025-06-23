@@ -48,5 +48,15 @@ agent_executor
 res = agent_executor.invoke({"input": "what is weather in ahmedabad?"})
 print(res["output"])
 
-# res1 = agent_executor.invoke({"input":"What's the paper 1605.08386 about?"})
-# print(res1)S
+# while True:
+#     query = input("Ask (or type 'exit' to quit): ")
+#     if query.strip().lower() in ["exit", "quit"]:
+#         print("Goodbye!")
+#         break
+#     try:
+#         response = agent_executor.invoke({"input": query})
+#         print(response['output'])
+#     except Exception as e:
+#         print(" Error:", str(e))
+#     finally:
+#         print("Reminder: Please ask about the company (from PDF) or the weather.\n")
