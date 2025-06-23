@@ -17,8 +17,8 @@ def load_and_split(path):
 
 # === Load PDFs ===
 jd_docs = load_and_split("jd.pdf")
-resume1_docs = load_and_split("1.pdf")
-resume2_docs = load_and_split("2.pdf")
+resume1_docs = load_and_split("3.pdf")
+resume2_docs = load_and_split("4.pdf")
 
 # === Embedding Model ===
 embedding_model = OllamaEmbeddings(model="mxbai-embed-large")
