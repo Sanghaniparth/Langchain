@@ -2,6 +2,7 @@ from langchain_community.document_loaders import WebBaseLoader
 from langchain_community.vectorstores import FAISS
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.embeddings import OllamaEmbeddings
+
 loader = WebBaseLoader("https://docs.smith.langchain.com/")
 docs = loader.load()
 documents = RecursiveCharacterTextSplitter(chunk_size= 1000, chunk_overlap= 200).split_documents(docs)
