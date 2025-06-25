@@ -1,7 +1,7 @@
 from langchain_community.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_core.prompts import ChatPromptTemplate
-from langchain_ollama.embeddings import OllamaEmbeddings  # ✅ updated import
+from langchain_ollama.embeddings import OllamaEmbeddings  
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain.chains import create_retrieval_chain
 from langchain_community.vectorstores import FAISS
@@ -38,5 +38,5 @@ retriever = db.as_retriever()
 retrieval_chain = create_retrieval_chain(retriever, document_chain)
 
 # Step 6: Run a query
-# re = retrieval_chain.invoke({"input": "Scaled Dot-Product Attention"})
-# print(re)
+re = retrieval_chain.invoke({"input": "Scaled Dot-Product Attention"})
+print(re)

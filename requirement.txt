@@ -19,5 +19,6 @@ langchainhub
 groq
 langchain-groq
 sentence-transformers
-ragstack-ai
+pyowm
 datasets
+langchain-objectbox

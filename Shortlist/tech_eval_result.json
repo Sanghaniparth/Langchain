@@ -1,0 +1,56 @@
+{
+  "score": 0.0,
+  "qualified": false,
+  "responses": {
+    "What is Spring Boot?": {
+      "answer": "Spring boot is java framework and used to develope and deploy java application",
+      "score": 0,
+      "feedback": "\u26a0\ufe0f Could not evaluate."
+    },
+    "How does Spring Boot make development easier?": {
+      "answer": "yes",
+      "score": 0,
+      "feedback": "\u26a0\ufe0f Could not evaluate."
+    },
+    "What are the features of Spring Boot?": {
+      "answer": "reduce the configuration and help with auto configuration",
+      "score": 0,
+      "feedback": "\u26a0\ufe0f Could not evaluate."
+    },
+    "What are the advantages of Spring Boot?": {
+      "answer": "provide embedded tomcate and jetty in built",
+      "score": 0,
+      "feedback": "\u26a0\ufe0f Could not evaluate."
+    },
+    "What is @SpringBootApplication annotation?": {
+      "answer": " 3 annaotation @Override,@decrypte ",
+      "score": 0,
+      "feedback": "\u26a0\ufe0f Could not evaluate."
+    },
+    "What is the use of application.properties?": {
+      "answer": " dont know",
+      "score": 0,
+      "feedback": "\u26a0\ufe0f Could not evaluate."
+    },
+    "What is Spring Boot Starter?": {
+      "answer": "helps to start the or to run the applications ",
+      "score": 0,
+      "feedback": "\u26a0\ufe0f Could not evaluate."
+    },
+    "What is the role of Spring Boot CLI?": {
+      "answer": "it is command line interface to build applicationa",
+      "score": 0,
+      "feedback": "\u26a0\ufe0f Could not evaluate."
+    },
+    "How is Spring Boot different from Spring?": {
+      "answer": " dont know",
+      "score": 0,
+      "feedback": "\u26a0\ufe0f Could not evaluate."
+    },
+    "What is Spring Boot DevTools?": {
+      "answer": "whcih help to use the tools for building or developing the appication it is just like JDK",
+      "score": 0,
+      "feedback": "\u26a0\ufe0f Could not evaluate."
+    }
+  }
+}

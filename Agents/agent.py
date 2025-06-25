@@ -47,8 +47,8 @@ from langchain.agents import AgentExecutor
 agent_executor=AgentExecutor(agent=agent,tools=tools,verbose=True)
 agent_executor
 
-res = agent_executor.invoke({"input":"Tell me about Langsmith"})
-print(res)
+# res = agent_executor.invoke({"input":"Tell me about Langsmith"})
+# print(res)
 
-# res1 = agent_executor.invoke({"input":"What's the paper 1605.08386 about?"})
-# print(res1)
+res1 = agent_executor.invoke({"input":"What's the paper 1605.08386 about?"})
+print(res1)
